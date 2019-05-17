@@ -16,11 +16,13 @@ observacao
 
 instalando react e o next
 - npm init -y = inicializa packge json do node
+- npm install pm2 -g = instala pm2
 - yarn add react react-dom next
 - yarn add isomorphic-fetch = biblioteca que estabiliza api no front e no back
+- yarn add pm2 -g = instala gerenciador de processos
 
 scripts:
-
+    "pm2_dev": "pm2 start server/server.js", => EXECUTA SERVER COM O PM2
     "dev": "node server/server.js", => EXECUTA O SERVIDOR
     "build": "next build",          => COMPILA APP OTIMIZANDO PARA PROD.
     "start": "node server/server.js start" => STARTA O COMPILADO

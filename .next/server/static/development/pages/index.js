@@ -186,26 +186,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var isomorphic_fetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_fetch__WEBPACK_IMPORTED_MODULE_3__);
 
 
-var _jsxFileName = "/home/estudo-react/pages/index.js";
 
  // export default () => <h1>hello world</h1>;
 
 var Home = function Home(_ref) {
   var repositories = _ref.repositories;
-  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, repositories.map(function (repo) {
+  return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("div", null, repositories.map(function (repo) {
     return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("h1", {
-      key: repo.id,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 9
-      },
-      __self: this
+      key: repo.id
     }, " ", repo.name, " ");
   }));
 };
