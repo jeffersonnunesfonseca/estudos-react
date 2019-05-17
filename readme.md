@@ -11,8 +11,8 @@ documentaçao e exemplos sobre next https://github.com/zeit/next.js/
 server-side rendering:
 - tras mais performance, permite que utilize o SEO fazendo com que a pagina seja indexada
 
-observacao
-    - quando não é o primeiro acesso, o react so executa o lado front, porém mesmo com o js desabilitado a pagina é carrega, trazendo problema apenas para os state
+observacao:
+- quando não é o primeiro acesso, o react so executa o lado front, porém mesmo com o js desabilitado a pagina é carrega, trazendo problema apenas para os state
 
 instalando react e o next
 - npm init -y = inicializa packge json do node
@@ -22,7 +22,7 @@ instalando react e o next
 - yarn add pm2 -g = instala gerenciador de processos
 
 scripts:
-    "pm2_dev": "pm2 start server/server.js", => EXECUTA SERVER COM O PM2
-    "dev": "node server/server.js", => EXECUTA O SERVIDOR
-    "build": "next build",          => COMPILA APP OTIMIZANDO PARA PROD.
-    "start": "node server/server.js start" => STARTA O COMPILADO
+- "pm2_dev": "pm2 start server/server.js", => EXECUTA SERVER COM O PM2
+- "dev": "node server/server.js", => EXECUTA O SERVIDOR
+- "build": "next build",          => COMPILA APP OTIMIZANDO PARA PROD.
+- "start": "node server/server.js start" => STARTA O COMPILADO
